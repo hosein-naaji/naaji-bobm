@@ -15,3 +15,5 @@
 `cd naaji-bobm`
 
 `python naajibom.py`
+
+# end
