@@ -14,4 +14,4 @@
 
 `cd naaji-bobm`
 
-`python bomb_naaji.py`
+`python naajibom.py`
