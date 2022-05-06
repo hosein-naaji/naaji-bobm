@@ -8,9 +8,9 @@
 
 `pkg install python`
 
-`pip install -r requirements.txt`
-
 `git clone https://github.com/hosein-naaji/naaji-bobm`
+
+`pip install -r requirements.txt`
 
 `cd naaji-bobm`
 
