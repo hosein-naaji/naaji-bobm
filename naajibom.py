@@ -32,11 +32,11 @@ def snap(shomare):
     try:
         snapR = requests.post("https://app.snapp.taxi/api/api-passenger-oauth/v2/otp", headers=snapH, json=snapD, proxies=proxy)
         if "OK" in snapR.text:
-            print ("YES  🌝")
+            print ("ok💤")
         else:
-            print ("No:(")
+            print ("No👩🏻‍💻")
     except:
-        print ("No:(")
+        print ("No👨🏻‍💻")
 
 def shad(phone):
     #shad api
@@ -45,11 +45,11 @@ def shad(phone):
     try:
         shadR = requests.post("https://shadmessenger12.iranlms.ir/", headers=shadH, json=shadD, proxies=proxy)
         if "OK" in shadR.text:
-            print ("YES  🗿")
+            print ("oky💤")
         else:
-            print ("No!")
+            print ("No👩🏻‍💻")
     except:
-        print ("No!")
+        print ("No👨🏻‍💻")
 
 def gap(phone):
     #gap api
@@ -57,11 +57,11 @@ def gap(phone):
     try:
         gapR = requests.get("https://core.gap.im/v1/user/add.json?mobile=%2B{}".format(phone.split("+")[1]), headers=gapH, proxies=proxy)
         if "OK" in gapR.text:
-            print ("YES 🗿")
+            print ("oky💤")
         else:
-            print ("No!")
+            print ("No👩🏻‍💻")
     except:
-        print ("No!")
+        print ("No👨🏻‍💻")
 
 def tap30(phone):
     #tap30 api
@@ -70,11 +70,11 @@ def tap30(phone):
     try:
         tap30R = requests.post("https://tap33.me/api/v2/user", headers=tap30H, json=tap30D, proxies=proxy)
         if "OK" in tap30R.text:
-            print ("YES  🗿")
+            print ("oky💤")
         else:
-            print ("No!")
+            print ("No👩🏻‍💻")
     except:
-            print ("No!")
+            print ("No🪐")
 
 def emtiaz(phone):
     #emtiaz api
@@ -82,9 +82,9 @@ def emtiaz(phone):
     emD = "send=1&cellphone=0"+phone.split("+98")[1]
     try:
         emR = requests.post("https://web.emtiyaz.app/json/login", headers=emH, data=emD, proxies=proxy)
-        print ("YES  🗿")
+        print ("oky💤")
     except:
-        print ("No!")
+        print ("No👩🏻‍💻")
 
 def divar(phone):
     #divar api
@@ -93,7 +93,7 @@ def divar(phone):
     try:
         divarR = requests.post("https://api.divar.ir/v5/auth/authenticate", headers=divarH, json=divarD, proxies=proxy)
         if "SENT" in divarR.text:
-            print ("YES  :)")
+            print ("oky💤")
         else:
             print ("No!")
     except:
@@ -106,7 +106,7 @@ def rubika(phone):
     try:
         ruR = requests.post("https://messengerg2c4.iranlms.ir/", headers=ruH, json=ruD, proxies=proxy)
         if "OK" in ruR.text:
-            print ("YES  🗿")
+            print ("oky💤")
         else:
             print ("No!")
     except:
@@ -131,7 +131,7 @@ def bama(phone):
     try:
         bamaR = requests.post("https://bama.ir/signin-send-otp", headers=bamaH, data=bamaD, proxies=proxy)
         if "0" in bamaR.text:
-            print ("YES  🗿")
+            print ("oky💤")
         else:
             print ("No!")
     except:
